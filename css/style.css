@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--color-secondary-gray);
+    max-width: 250px;
+    height: 400px;
+}
+
+header {
+    background-color: #474350 !important;
+}
+
+main { 
+    background-color: whitesmoke!important;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-content: center;
+}
+
+.hero { 
+    margin: 10px 0px;
+}
+
+.about-me {
+    padding: 50px 0px;
+}
+
+.resume-head { 
+    padding: 20px 0px;
+    margin: 10px 0px;
+}
+
+.education { 
+    display: flex; 
+    flex-direction: column;
+}
+
+.ed-cert { 
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.sociology { 
+    display: flex;
+    justify-content: center;
+}
+.degree { 
+    padding: 5px 10px; 
+} 
+
+.school {
+    padding: 5px 10px;
+}
+
+.graduation {
+    padding: 5px 10px;
+}
+
+.criminology {
+    display: flex;
+    justify-content: center;
+}
+
+.cert-accomp {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+
+.certifications {
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+}
